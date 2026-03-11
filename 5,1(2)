@@ -1,0 +1,5 @@
+N = int(input("кол-во слов: "))
+result = ""
+for number in range(N):
+    result = result + input(f"ввести слово {number +1}: ") + " "
+print(result)
